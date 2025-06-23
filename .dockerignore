@@ -1,0 +1,57 @@
+# Git files
+.git
+.gitignore
+
+# Python cache and virtual environments
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Test reports (will be generated inside container)
+test-results.xml
+test-report.html
+report.html
+
+# Documentation
+README.md
+
+# Temporary files
+*.tmp
+*.temp 
