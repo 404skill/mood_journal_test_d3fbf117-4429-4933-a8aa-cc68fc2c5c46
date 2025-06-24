@@ -110,7 +110,7 @@ When running tests with Docker, results are saved to:
 
 ## Configuration
 
-The base URL for the API can be configured in the `base_url` fixture in `test_api.py`. By default, it's set to `http://host.docker.internal:8001`.
+The base URL for the API can be configured in the `base_url` fixture in `test_api.py`. By default, it's set to `http://host.docker.internal:8000`.
 
 ## Docker Features
 

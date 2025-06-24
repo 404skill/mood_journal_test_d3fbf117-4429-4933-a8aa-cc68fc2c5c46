@@ -19,7 +19,7 @@ from test_utils import (
 @pytest.fixture
 def base_url():
     """Fixture providing the base URL for the API"""
-    return "http://app:8001"  # Adjust port as needed
+    return "http://host.docker.internal:8000"  # Adjust port as needed
 
 
 class TestTask1HealthCheck:
