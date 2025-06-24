@@ -661,7 +661,7 @@ class TestTask7TimeRangeFiltering:
 @pytest.fixture
 def base_url():
     """Fixture providing the base URL for the API"""
-    return "http://localhost:8000"  # Adjust port as needed
+    return "http://localhost:8001"  # Adjust port as needed
 
 
 # Helper function to clean up test data (optional)
