@@ -8,4 +8,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["bash", "-lc", "pytest --cache-clear --junitxml=test-report/results.xml"]
+ENTRYPOINT ["bash", "-lc", "pytest --cache-clear --junitxml=test-reports/results.xml"]
